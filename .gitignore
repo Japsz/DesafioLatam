@@ -2,3 +2,4 @@
 **/*.zip
 // Ignore vsCode config
 .vscode
+**/.ipynb_checkpoints
