@@ -3,3 +3,4 @@
 // Ignore vsCode config
 .vscode
 **/.ipynb_checkpoints
+**/__pycache__
