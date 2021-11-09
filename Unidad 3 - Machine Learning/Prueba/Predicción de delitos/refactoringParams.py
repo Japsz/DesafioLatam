@@ -2,8 +2,6 @@ import numpy as np
 import pandas as pd
 
 multiClassLabels = [
-    'pct',
-    'addrpct',
     'trhsloc',
     'typeofid',
     'officrid',
@@ -14,7 +12,6 @@ multiClassLabels = [
     'haircolr',
     'eyecolor',
     'build',
-    'detailcm',
     'city',
     'sector'
 ]
@@ -81,9 +78,9 @@ binaryLabels = [
     'recstat'
 ]
 removeLabels = [
-    'addrnum', 'sumoffen', 'crimsusp', 'arstoffn', 'addrtyp', 'aptnum', 'beat', 'post', 'crossst', 'arstoffn', 'premname', 'stinter', 'stname', 'xcoord', 'ycoord', 'comppct', 'compyear', 'dettypcm', 'state', 'dob', 'premtype', 'rescode', 'zip', 'ser_num', 'linecm', 'othfeatr', 'year', 'weight', 'ht_feet', 'ht_inch', 'datestop', 'timestop'
+    'addrnum', 'sumoffen', 'crimsusp', 'repcmd', 'revcmd', 'pct', 'addrpct', 'detailcm', 'arstoffn', 'addrtyp', 'aptnum', 'beat', 'post', 'crossst', 'arstoffn', 'premname', 'stinter', 'stname', 'xcoord', 'ycoord', 'comppct', 'compyear', 'dettypcm', 'state', 'dob', 'premtype', 'rescode', 'zip', 'ser_num', 'linecm', 'othfeatr', 'year', 'weight', 'ht_feet', 'ht_inch', 'datestop', 'timestop'
 ]
-numericLabels = ['age', 'repcmd', 'revcmd', 'perstop', 'perobs']
+numericLabels = ['age', 'perstop', 'perobs']
 multiClassHash = {
     'addrpct': {
         '1': '001',
