@@ -1,0 +1,1 @@
+SELECT * FROM cancion RIGHT JOIN (SELECT * FROM artista WHERE nacionalidad = 'Estadounidense' AND (fecha_de_nacimiento > '1992-01-01'::date) LIMIT 1) as art ON art.nombre_artista = cancion.artista WHERE cancion.numero_del_track = 4;
