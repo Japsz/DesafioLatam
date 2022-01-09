@@ -1,0 +1,55 @@
+LogisticRegression
+              precision    recall  f1-score   support
+
+           0       0.46      0.56      0.51       167
+           1       0.42      0.32      0.36       163
+
+    accuracy                           0.44       330
+   macro avg       0.44      0.44      0.43       330
+weighted avg       0.44      0.44      0.43       330
+
+==================================================
+RandomForestClassifier
+              precision    recall  f1-score   support
+
+           0       0.52      0.57      0.55       167
+           1       0.52      0.47      0.49       163
+
+    accuracy                           0.52       330
+   macro avg       0.52      0.52      0.52       330
+weighted avg       0.52      0.52      0.52       330
+
+==================================================
+GradientBoostingClassifier
+              precision    recall  f1-score   support
+
+           0       0.47      0.49      0.48       167
+           1       0.45      0.43      0.44       163
+
+    accuracy                           0.46       330
+   macro avg       0.46      0.46      0.46       330
+weighted avg       0.46      0.46      0.46       330
+
+==================================================
+BernoulliNB
+              precision    recall  f1-score   support
+
+           0       0.51      0.60      0.55       167
+           1       0.50      0.42      0.46       163
+
+    accuracy                           0.51       330
+   macro avg       0.51      0.51      0.50       330
+weighted avg       0.51      0.51      0.51       330
+
+==================================================
+DecisionTreeClassifier
+              precision    recall  f1-score   support
+
+           0       0.51      0.44      0.48       167
+           1       0.50      0.57      0.53       163
+
+    accuracy                           0.51       330
+   macro avg       0.51      0.51      0.50       330
+weighted avg       0.51      0.51      0.50       330
+
+==================================================

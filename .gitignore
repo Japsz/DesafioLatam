@@ -7,3 +7,5 @@
 **/__pycache__
 workspace.*
 **/*.joblib
+**/*.pem
+Prueba\ Final/*.csv
